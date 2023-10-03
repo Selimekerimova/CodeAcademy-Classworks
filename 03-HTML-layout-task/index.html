@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    #head {
+        border: 1px solid rebeccapurple;
+    }
+    #section1 {
+        border: 1px solid rebeccapurple;
+    }
+    #formsection1 {
+        border: 1px solid rgb(53, 203, 248);
+    }
+    #formsection2 {
+        border: 1px solid rgb(248, 53, 232);
+    }
+    #footer {
+        border: 1px solid rgb(8, 85, 8);
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+    table th {
+        background-color: grey;
+    }
+ </style>
+<body>
+    
+        <header id="head">
+            <h3>This is a Header</h3>
+         <nav>
+            <ul>
+                <li>
+                    <a href="#">Section 1</a>
+                </li>
+                <li>
+                    <a href="#">Form Section </a>
+                </li>
+                <li>
+                    <a href="#">Form Section 2</a>
+                </li>
+                <li>
+                    <a href="#">Footer</a>
+                </li>
+              </ul>
+         </nav>
+
+        
+        </header>
+       
+        <section id="section1">
+            <h3>Section 1</h3>
+            <h4>Web Browers</h4>
+            <p>Google Chrome, Firefox,and Intenet Explorer are the most used browsers today.</p>
+            <h4>Google Chrome</h4>
+            <p>Google Chrome in 2008.</p>
+            <h4>Article </h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisic architecto commodi eaque, inventore explicabo.</p>
+            <h4>Mozilla Firefox</h4>
+            <p>Google Chrome, Firefox,and Intenet Explorer are the most used browsers today.</p>
+         </section>
+         
+        <section id="formsection1">
+            <h3>Form Section 1</h3>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name"><br>
+                <label for="gender">Gender.</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br>
+                <label for="sec">Pets:</label>
+                <select name="" id="">
+                    <option value="sec" id="sec" >city</option>
+                </select>
+                <input type="submit" name="" id="">
+
+            </form>
+        </section>
+    
+        <section id="formsection2">
+            <h3>Form Section 2</h3>
+
+            <table  >
+             
+                    <th colspan="3">First Name Last Name Email Address</th>
+                    
+                    
+                
+                <tr>
+                    <td>Hillary</td>
+                    <td>Nyakundy</td>
+                    <td>Tables@mail.com</td>
+
+                </tr>
+                <tr>
+                    <td>Lary</td>
+                    <td>Mak</td>
+                    <td>Developer@mail.com</td>
+
+                </tr>
+            </table>
+
+
+
+            <table >
+                
+                    <th>Nmae</th>
+                    <th>Subject </th>
+                    <th>Marks</th>
+                
+                <tr>
+                    <td rowspan="2">Hillary</td>
+                    <td>Operating</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    
+                    <td>Advanced</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lary</td>
+                    <td>Advanced</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                 
+                    <td>Operating</td>
+                    <td>75</td>
+                </tr>
+                <tr >
+                    <td colspan="3">Total Average: 72.5</td>
+                </tr>
+            </table>
+        </section>
+<footer id="footer">
+    <h3>Footer </h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+</footer>
+</body>
+</html>
