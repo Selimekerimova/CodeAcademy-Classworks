@@ -1,0 +1,32 @@
+#bir{
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 50px;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px blueviolet;
+}
+.iki{
+    font-family: 'Martian Mono', monospace;
+    font-size: 30PX;
+    color: brown;
+}
+.uc{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color: green;
+}
+.dord{
+    font-family: 'Monoton', cursive;
+    color:orange ;
+
+}
+.bes{
+    font-family: 'AR One Sans', sans-serif;
+    color: red;
+    font-size: 25px;
+}
+.alti{
+    font-family: 'Monoton', cursive;
+    color: blue;
+    font-size: 15px;
+}
