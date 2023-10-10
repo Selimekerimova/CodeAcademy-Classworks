@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#section{
+    height: 100vh;
+}
+.contenr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    height: 80%;
+    background-color: rgb(195, 248, 248);
+}
+#title{
+    width: 20%;
+    height: 70%;
+    
+    
+}
+#footer{
+    height:20% ;
+    background-color: black;
+}
+#footer p{
+    color: white;
+    font-size:20px;
+    text-align: center;
+    padding:40px ;
+}
+.contactus{
+    /* width: 20%; */
+    height: 70%;
+    border: 1px solid;
+}
+
+.contactus h2{
+    text-align: center;
+    color: blue;
+}
+#title h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#title p,i{
+    color: green;
+    margin: 10px 0px;
+}
+
+.contactus h2,input{
+    margin:10px 0px ;
+    padding: 5px;
+}
+#button{
+    background-color: green;
+    color:white;
+    width: 100%;
+}
