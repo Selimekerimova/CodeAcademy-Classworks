@@ -5,77 +5,92 @@
     list-style: none;
     text-decoration: none;
 }
-.contanier{
-  background-color: rgb(96, 173, 146);
-  height: 10vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  column-gap: 20px;
-  
-    
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
-
-.heading nav ul{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 25px;
+header{
+    background-color: darkolivegreen;
 }
-.heading nav ul li a,.fa-solid.fa-bars {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.contanier h1{
-    color: white;
-    font-size: 2rem;
-    
-}
-.signup button{
-    color: white;
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-#singup{
-    background-color: rgb(139, 236, 243);
-    color: black;
-    border: none;
-}
-#login{
-    background-color: transparent;
-    color: white;
-    border: none;
-}
-.contanier .fa-solid.fa-bars.fa-beat{
+.container .icon .fa-solid{
     display: none;
 }
-@media screen and (max-width: 1200px){
-.contanier{
-    padding: 0 5%;
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
+ul li a{
+    color: white;
+    font-size: 1.5rem;
 }
-
-
-#main{
-    height: 100vh;
+.header h1{
+    font-size: 3rem;
+    padding-left: 5%;
 }
-.contanier1 .img{
+.singlog .singup,.login{
+padding: 10px 20px ;
+border-radius: 10px;
+}
+nav ul{
     display: flex;
+    gap: 20px;
+}
+.main{
+    background-color: rgb(227, 234, 236);
+}
+.main .title h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3rem;
+}
+.main .title p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.main .img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
+}
+.container .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(23, 34, 6);
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.right .card2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    
+}
 
-}
-.contanier1 .img .card:hover{
-    opacity: 0.5;
-}
-.contanier1 .img .card{
-    flex-wrap: wrap;
-    width: 20%;
-    height: 40vh;
-    gap: 30px;
+
+@media screen and (max-width:767px){
+    .container .icon .fa-solid{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .singlog .singup,.login{
+        display: none;
+    }
+    .container .footer{
+        display: block;
+        gap: 20px;
+    }
+    .right{
+        display: block;
+        gap: 20px;
+        
+    }
 }
