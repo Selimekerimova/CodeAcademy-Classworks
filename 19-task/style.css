@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./image\ 3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.container .nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.container .nav ul li a, .nav .fa-bag-shopping {
+    color: white;
+}
+.nav .fa-solid.fa-bars {
+    color: white;
+    display: none;
+}
+.container .main{
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 300px;
+    gap: 30px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+.container .main .h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+.container .main .p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.container .main .search input {
+    padding: 15px 10px;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+ background-color: white;
+ opacity: 0.6;
+   
+}
+.container .main .search input::placeholder {
+ color: rgb(43, 36, 36);
+   
+}
