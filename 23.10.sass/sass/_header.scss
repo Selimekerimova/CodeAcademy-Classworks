@@ -1,0 +1,15 @@
+header{
+    background-color: blanchedalmond;
+    .header{
+        @include flexBox()
+    }
+    nav{
+        ul{
+            display: flex;
+        }
+        li{
+            
+        }
+        
+    }
+}
