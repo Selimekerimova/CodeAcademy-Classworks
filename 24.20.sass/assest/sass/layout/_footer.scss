@@ -1,0 +1,44 @@
+.footer{
+    .footer-top{
+        margin: 5% 0;
+        @include flexBox();
+        h3{
+            padding: 10px 0;
+            font-size: 24px;
+            color: #252B42;
+        }
+      
+    }
+    .footer-center{
+        @include flexBox();
+        padding: 5% 20%;
+        background-color: $bg-card-div;
+       nav{
+        h5{
+            padding-bottom: 20px;
+        }
+        ul{
+            li{
+                padding: 5px 0;
+               
+                a{
+                    color: black;
+                }
+            }
+        }
+       }
+    }
+    .footer-botton{
+        @include flexBox();
+        margin: 5% 0;
+        h6{
+            color: #737373;
+        }
+        .icons{
+            margin-right: 5%;
+            img{
+                margin: 0 10px;
+            }
+        }
+    }
+}

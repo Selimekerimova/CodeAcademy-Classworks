@@ -1,12 +1,16 @@
 header {
     .container {
         .header {
+          .icon {
+            display: none;
+          }
       @include flexBox();
       h3 {
         font-size: 24px;
         color: #252b42;
       }
       nav {
+        padding: 20px 0;
         ul {
           @include flexBox();
           gap: 20px;
@@ -16,6 +20,15 @@ header {
             }
           }
         }
+      }
+    }
+    @media screen and (max-width:767px){
+      .header .icon {
+        display: flex;
+        gap: 10px;
+      }
+      .header nav{
+        display: none;
       }
     }
   }

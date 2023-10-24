@@ -1,0 +1,69 @@
+#home {
+    #hero-banner {
+        .container {
+            .hero-banner {
+                .hero-banner-top {
+                    margin: 10% 0;
+                    width: 45%;
+
+                    h1 {
+                        margin: 10px 0;
+                        color: #252B42;
+                        font-size: 58px;
+                    }
+
+                    h4 {
+                        font-style: 20px;
+                        color: #737373;
+                        margin: 10px 0;
+                    }
+                }
+
+                .hero-banner-botton {
+                    @include flexBox();
+                    width: 100%;
+                    gap: 20px;
+
+                    .card {
+                        width: 30%;
+
+                        img {
+                            padding: 10% 5%;
+                        }
+
+                        h3 {
+                            padding: 0 5%;
+                            color: #252B42;
+                            font-size: 24px;
+                        }
+
+                        p {
+                            color: #737373;
+                            font-size: 14px;
+                            padding: 10% 5%;
+                        }
+
+                        &.card-3 {
+                            background-color: $bg-card-div;
+
+                            h3 {
+                                color: #FFFFFF;
+                            }
+
+                            p {
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:767px) {
+            .hero-banner-botton {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
