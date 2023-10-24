@@ -1,0 +1,43 @@
+footer {
+  .footer {
+    @include flexBox();
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .menu-services {
+    h2 {
+      color: red;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+    ul {
+    }
+    li {
+      padding: 5px 0;
+    }
+    a {
+      color: black;
+    }
+  }
+  .icon {
+    color: white;
+  }
+  .fa-brands {
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+}
+.footer-botton {
+  @include flexBox();
+  margin-top: 20px;
+  .footer-right {
+    display: flex;
+  }
+  h2 {
+    margin: 0 10px;
+  }
+}
