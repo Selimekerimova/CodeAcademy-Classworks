@@ -1,0 +1,49 @@
+.header {
+  .contact {
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    padding: 10px 25px;
+  }
+}
+#boxes {
+  .boxes {
+    .box {
+      button {
+        background-color: white;
+        border-radius: 10px ;
+        border: none;
+        color: #391400;
+        padding: 5px 20px;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+#loadmore{
+    .loadMore-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .loadMore{
+            background-color: #fff;
+            color: #391400;
+            padding: 10px 20px;
+            margin: 20px 0;
+            border: none;
+        }
+    }
+  
+}
+#project{
+  .project-left{
+  button{
+    background-color: #fff;
+    color: #391400;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+  }
+  }
+}

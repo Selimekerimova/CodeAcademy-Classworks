@@ -1,0 +1,34 @@
+
+#boxes{
+    .boxes{
+        @include flexBox();
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding: 5% 0;
+       
+        .box{
+            position: relative;
+            width: 30%;
+            .box-img{
+                width:100% ;
+               
+            }
+
+            .box-botton{
+                position: absolute;
+                left: 5%;
+                bottom: 5%;
+                margin: 10px 0;
+                h1{
+                    color: white;
+                    font-size: 40px;
+                }
+            }
+            img{
+                    width: 100%;
+                 
+            }
+        }
+    }
+}
